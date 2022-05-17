@@ -154,7 +154,7 @@ section {
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-height: 100vh;
+  min-height: 100vh;
 }
 .header-content .left-header {
   display: flex;
@@ -399,7 +399,7 @@ section {
   font-size: 1.2rem;
 }
 .timeline .timeline-item p {
-  color: var(--color-black);
+  color: var(--color-grey-3);
 }
 
 .port-text {
@@ -422,6 +422,7 @@ section {
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
+  border: 1px solid var(--color-grey-3);
 }
 .portfolios .portfolio-item .hover-items {
   width: 100%;
