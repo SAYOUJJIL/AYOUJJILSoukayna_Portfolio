@@ -399,7 +399,7 @@ section {
   font-size: 1.2rem;
 }
 .timeline .timeline-item p {
-  color: var(--color-grey-3);
+  color: var(--color-secondary);
 }
 
 .port-text {
